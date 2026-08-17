@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+
+# Test and analysis output
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# FeedVerdict runtime data
+*.db
+*.sqlite3
+*.jsonl
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Recordings
+*.mkv
+*.mp4
+
+# Editor and OS files
+*.swp
+*.swo
+.idea/

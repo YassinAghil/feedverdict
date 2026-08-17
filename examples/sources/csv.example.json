@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "Example Warehouse CSV",
+  "kind": "csv",
+  "path": "sample-prices.csv",
+  "columns": {
+    "market": "market",
+    "price": "price",
+    "timestamp": "provider_timestamp",
+    "event_id": "event_id"
+  },
+  "timestamp_format": "iso8601"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "name": "Example HTTP Price API",
+  "kind": "http_json",
+  "url_template": "https://prices.example.invalid/v1/ticker/{provider_market}",
+  "markets": {
+    "BTC/USD": "btc-usd",
+    "ETH/USD": "eth-usd"
+  },
+  "price_path": "data.price",
+  "timestamp_path": "data.updated_at",
+  "timestamp_format": "iso8601",
+  "event_id_path": "data.event_id",
+  "headers_from_env": {
+    "X-API-Key": "EXAMPLE_PRICE_API_KEY"
+  }
+}
