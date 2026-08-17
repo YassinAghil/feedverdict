@@ -274,12 +274,6 @@ docs/demo-script.md                 timed walkthrough under three minutes
    could summarize an existing structured trace, but would never choose the
    canonical numeric value.
 
-## Demo and submission
-
-- [`docs/demo-script.md`](docs/demo-script.md) is timed for a 2:45 recording.
-- [`docs/submission-checklist.md`](docs/submission-checklist.md) covers public-link
-  and logged-out verification.
-
 ## License
 
 MIT
